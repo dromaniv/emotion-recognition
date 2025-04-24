@@ -8,7 +8,7 @@ This project aims to explore and build models for emotion recognition using phys
 ├── data/                 # Raw and processed data (Not tracked by Git)
 │   └── GAMEEMO/          # Extracted dataset files
 ├── notebooks/            # Jupyter notebooks for exploration, analysis, and modeling
-│   └── 01_eda.ipynb      # Exploratory Data Analysis
+│   └── emotion_classifier.ipynb
 ├── src/                  # Source code for data processing, feature extraction, models etc.
 │   └── __init__.py
 ├── .gitignore            # Specifies intentionally untracked files that Git should ignore
@@ -21,7 +21,7 @@ This project aims to explore and build models for emotion recognition using phys
 
 1.  **Clone the repository:**
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/dromaniv/emotion-recognition.git
     cd emotion-recognition
     ```
 
@@ -36,10 +36,6 @@ This project aims to explore and build models for emotion recognition using phys
     pip install -r requirements.txt
     ```
 
-4.  **Download the Dataset:**
-    *   Download the GameEMO dataset from [Kaggle](https://www.kaggle.com/datasets/sigfest/database-for-emotion-recognition-system-gameemo).
-    *   Extract the contents into the `data/GAMEEMO/` directory within the project root. The structure should look like `data/GAMEEMO/S01/`, `data/GAMEEMO/S02/`, etc.
-
 ## Usage
 
 *   Navigate to the `notebooks/` directory.
@@ -47,12 +43,4 @@ This project aims to explore and build models for emotion recognition using phys
     ```bash
     jupyter lab
     ```
-*   Open and run the notebooks (e.g., `01_eda.ipynb`) to explore the data and model development process.
-
-## Contributing
-
-[Optional: Add guidelines for contributing if applicable]
-
-## License
-
-[Specify License, e.g., This project is licensed under the MIT License - see the LICENSE file for details.]
+*   Open and run the notebooks (e.g., `emotion_classifier.ipynb`) to explore the data and model development process.
