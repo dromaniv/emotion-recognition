@@ -8,7 +8,6 @@ jupyterlab
 kaggle
 joblib
 tqdm
-pyriemann
 torch
 torchvision
 torchaudio
