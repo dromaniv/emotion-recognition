@@ -1,0 +1,14 @@
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+scikit-learn
+jupyterlab
+kaggle
+joblib
+tqdm
+pyriemann
+torch
+torchvision
+torchaudio
