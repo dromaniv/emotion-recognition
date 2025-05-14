@@ -11,3 +11,4 @@ tqdm
 torch
 torchvision
 torchaudio
+ipykernel
