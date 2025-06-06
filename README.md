@@ -7,10 +7,7 @@ This project aims to explore and build models for emotion recognition using phys
 ```
 ├── data/                 # Raw and processed data (Not tracked by Git)
 │   └── GAMEEMO/          # Extracted dataset files
-├── notebooks/            # Jupyter notebooks for exploration, analysis, and modeling
-│   └── emotion_classifier.ipynb
-├── src/                  # Source code for data processing, feature extraction, models etc.
-│   └── __init__.py
+├── eeg_emotion_classifier.ipynb            # Jupyter notebook for exploration, analysis, and modeling
 ├── .gitignore            # Specifies intentionally untracked files that Git should ignore
 ├── LICENSE               # Project license information
 ├── README.md             # This file
@@ -38,9 +35,8 @@ This project aims to explore and build models for emotion recognition using phys
 
 ## Usage
 
-*   Navigate to the `notebooks/` directory.
 *   Run Jupyter Lab:
     ```bash
     jupyter lab
     ```
-*   Open and run the notebooks (e.g., `emotion_classifier.ipynb`) to explore the data and model development process.
+*   Open and run the notebooks (e.g., `eeg_emotion_classifier.ipynb`) to explore the data and model development process.
